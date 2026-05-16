@@ -1,5 +1,5 @@
 # OWASP Juice Shop Setup (Kali Linux)
-## 1. Verify Docker
+### 1. Verify Docker
 
 ```bash
 docker --version
@@ -7,7 +7,7 @@ sudo systemctl status docker
 sudo systemctl start docker
 ```
 
-## 2. Pull the image
+### 2. Pull the image
 ```bash
 sudo docker pull bkimminich/juice-shop
 ```
@@ -17,17 +17,17 @@ sudo docker pull bkimminich/juice-shop
 sudo docker run -d -p 3010:3000 --name juice-shop bkimminich/juice-shop
 ```
 
-## 4. Verify container
+### 4. Verify container
 ```bash
 sudo docker ps
 ```
 
-## 5. Access Juice Shop
+### 5. Access Juice Shop
 ```text
 http://127.0.0.1:3010
 ```
 
-## Useful commands
+### Useful commands
 - Stop:
 ```bash
 sudo docker stop juice-shop
