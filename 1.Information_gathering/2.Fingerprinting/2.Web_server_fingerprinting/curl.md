@@ -8,9 +8,9 @@ Identify web server behavior, security controls, caching mechanisms, supported H
 - <img width="700" alt="image" src="https://github.com/user-attachments/assets/6593d293-5709-4a85-8dae-a28271e2f558" />
 ### Findings
 #### Access-Control-Allow-Origin: *
-    - CORS header allowing cross-origin access
-    - Reveals cross-origin communication behavior
-    - Indicates API/frontend interaction support
+- CORS header allowing cross-origin access
+- Reveals cross-origin communication behavior
+- Indicates API/frontend interaction support
 
 #### X-Content-Type-Options: nosniff
 - Prevents browser MIME type guessing
