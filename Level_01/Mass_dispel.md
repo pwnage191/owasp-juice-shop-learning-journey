@@ -23,4 +23,4 @@ Close multiple "Challenge solved" notifications in one go.
 - JavaScript files can reveal hidden functionality and application behavior.
 - Client-side code analysis can provide clues about the application's attack surface.
 - Official documentation can help uncover features that are not immediately obvious through normal usage.
-**Key Lesson:** Hidden functionality is often discoverable through client-side code and publicly available documentation.
+- **Key Lesson:** Hidden functionality is often discoverable through client-side code and publicly available documentation.
